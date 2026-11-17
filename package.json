@@ -1,0 +1,26 @@
+{
+  "name": "automatizacion-wiki",
+  "version": "1.0.0",
+  "description": "Automatizacion de pruebas E2E con Playwright en The Binding of Isaac Wiki",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "e2e",
+    "typescript"
+  ],
+  "author": "Andres Perez",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6",
+    "dotenv": "^18.0.10"
+  }
+}

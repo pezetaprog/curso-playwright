@@ -68,7 +68,7 @@ npm run report
 O directamente con Playwright:
 
 ```bash
-npx playwright test
+
 ```
 
 ---
